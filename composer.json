@@ -1,0 +1,18 @@
+{
+    "name": "fabien/test-php",
+    "autoload": {
+        "psr-4": {
+            "Fabien\\TestPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabien Papet",
+            "email": "fabien.papet@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.0",
+        "symfony/console": "^6.0"
+    }
+}
